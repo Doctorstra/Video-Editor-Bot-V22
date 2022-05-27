@@ -1,0 +1,2 @@
+# Video-Editor-Bot-V22
+🤓 A Powerful Telegram Video Editor Bot.🛠️Advance Features like Video Merging, Video Trimming, Video Hevc/Fast Compressor, Video Renamer, Video Screenshot Generator, Video Watermark Adder, Video Encoder, Video Subtitle Extractor Adder, Video Audio Extractor Adder, Video Convert file/Video, Video Archiver (tar,rar,Zip),Archive Extractor, Direct Download link Generator,Url Uploader html (mx-player,Zee 5,Hotstar,Voot,Sony etc.) With Permanent Thumbnail Support 📌 
