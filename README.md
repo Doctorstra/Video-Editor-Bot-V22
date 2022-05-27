@@ -47,7 +47,7 @@
 ```sh
 git clone https://github.com/Doctorstra/Video-Editor-Bot-V22)
 
-cd Watermark-Bot
+cd Video-Editor-Bot-V22
 virtualenv -p python3 VENV
 . ./VENV/bin/activate
 pip3 install -r requirements.txt
