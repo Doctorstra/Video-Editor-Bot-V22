@@ -62,4 +62,4 @@ python3 bot.py
 
 LICENSE:
 
-
+[GNU Affero General Public License v3.0](https://github.com/Doctorstra/Video-Editor-Bot-V22/blob/main/LICENSE)
