@@ -28,15 +28,18 @@
 - [X] Log Channel Added
 
 ### Deploy on Heruko
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Doctorstra/Video-Editor-Bot-V22
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Doctorstra/Video-Editor-Bot-V22)
+
 
 ### Deploy on Railway
 
-[![Deploy To Railway](https://railway.app/button.svg)](https://railway.app
+[![Deploy To Railway](https://railway.app/button.svg)](https://railway.app)
+
 
 ### Deploy your bot on `Okteto`
   
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com)
+
 
 `Alternate way:`
 
