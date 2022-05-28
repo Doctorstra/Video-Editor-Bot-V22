@@ -1,5 +1,5 @@
 # Video-Editor-Bot-V22
-🤓 A Powerful Telegram Video Editor Bot.🛠️Advance Features like Video Merging, Video Trimming, Video Hevc/Fast Compressor, Video Renamer, Video Screenshot Generator, Video Watermark Adder, Video Encoder, Video Subtitle Extractor Adder, Video Audio Extractor Adder, Video Convert file/Video, Video Archiver (tar,rar,Zip),Archive Extractor, Direct Download link Generator,Url Uploader html (mx-player,Zee 5,Hotstar,Voot,Sony etc.) With Permanent Thumbnail Support 📌 
+🤓 A Powerful Telegram Video Editor Bot.🛠️Advance Features like Video Merging, Video Trimming, Video Hevc/Fast Compressor, Video Renamer, Video Screenshot Generator, Video Watermark Adder, Video Encoder, Video Subtitle Extractor Adder, Video Audio Extractor Adder, Video Convert file/Video, Video Archiver (tar,rar,Zip),Archive Extractor, Direct Download link Generator,Url Uploader html (mx-player,Zee 5,Hotstar,Voot,Sony etc.), Video Metadata, Video Information, With Permanent Thumbnail Support 📌 
 
 ### Demo Bot:
 <a href="https://t.me/Dads_links_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
@@ -22,6 +22,8 @@
 - [X] Archive Extractor
 - [X] Direct Download link Generator
 - [X] Url Uploader html (mx-player,Zee 5,Hotstar,Voot,Sony etc.)
+- [X] Video Metadata
+- [X] Video Storage Info
 - [X] Permanent Thumbnail Support
 - [X] Broadcast Support
 - [X] Mongodb Added
