@@ -62,6 +62,36 @@ python3 bot.py
 <a href="https://github.com/Doctorstra"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
 
-LICENSE:
+<b>🧰 Project Structure</b>
 
-[GNU Affero General Public License v3.0](https://github.com/Doctorstra/Video-Editor-Bot-V22/blob/main/LICENSE)
+Video-Editor-Bot-V22/
+│
+├── bot/
+│   ├── handlers/
+│   │   ├── start.py
+│   │   ├── merge.py
+│   │   ├── trim.py
+│   │   ├── compress.py
+│   │   ├── rename.py
+│   │   ├── screenshot.py
+│   │   ├── watermark.py
+│   │   ├── encode.py
+│   │   ├── subtitle.py
+│   │   ├── audio.py
+│   │   ├── archive.py
+│   │   ├── extract_archive.py
+│   │   ├── download_link.py
+│   │   ├── url_uploader.py
+│   │   └── metadata.py
+│   │
+│   ├── utils/
+│   │   ├── ffmpeg_utils.py
+│   │   ├── database.py
+│   │   └── storage.py
+│   │
+│   ├── config.py
+│   └── main.py
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
