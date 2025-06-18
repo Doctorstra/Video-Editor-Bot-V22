@@ -1,7 +1,7 @@
 # bot/main.py
 import logging
 from pyrogram import Client, filters
-from .config import API_ID, API_HASH, BOT_TOKEN
+from .config import API_ID, API_HASH, 7293809673:AAFGuFiQH85yGkckT5yql3Nx39iLinJScKg
 from .handlers import (
     start, merge, trim, compress, rename, screenshot,
     watermark, encode, subtitle, audio, archive,
