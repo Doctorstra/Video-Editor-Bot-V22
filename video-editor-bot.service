@@ -1,0 +1,19 @@
+[Unit]
+Description=All-in-One Video Editor Telegram Bot
+After=network.target mongodb.service
+
+[Service]
+Type=simple
+User=botuser
+WorkingDirectory=/home/botuser/all-in-one
+Environment="PATH=/home/botuser/all-in-one/venv/bin"
+ExecStart=/home/botuser/all-in-one/venv/bin/python bot.py
+Restart=always
+RestartSec=10
+
+# Logging
+StandardOutput=append:/var/log/video-bot/output.log
+StandardError=append:/var/log/video-bot/error.log
+
+[Install]
+WantedBy=multi-user.target

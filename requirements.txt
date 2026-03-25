@@ -1,0 +1,11 @@
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+pymongo==4.6.1
+ffmpeg-python==0.2.0
+Pillow==10.3.0
+aiohttp==3.13.3
+motor==3.3.2
+pyrogram==2.0.106
+TgCrypto==1.2.5
+requests==2.31.0
+yt-dlp==2024.7.1

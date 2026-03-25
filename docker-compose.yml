@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: video_bot_mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: video_editor_bot
+    volumes:
+      - mongodb_data:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - bot_network
+
+  bot:
+    build: .
+    container_name: video_editor_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017
+    depends_on:
+      - mongodb
+    volumes:
+      - ./downloads:/app/downloads
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+    networks:
+      - bot_network
+
+volumes:
+  mongodb_data:
+
+networks:
+  bot_network:
+    driver: bridge
